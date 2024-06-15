@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <div class="controls">
+            <button id="theme-toggle-button">Toggle Theme</button>
+            <select id="color-scheme-selector">
+                <option value="default">Default</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+            <button id="increase-font-button">Increase Font</button>
+            <button id="decrease-font-button">Decrease Font</button>
+        </div>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio. I am a web developer with a passion for creating dynamic and responsive websites. With a strong foundation in HTML, CSS, and JavaScript, I have developed a keen eye for design and a deep understanding of modern web development practices. My journey into web development began with a curiosity for how websites work, and it has evolved into a full-fledged career that I deeply enjoy. Throughout my career, I have had the opportunity to work on a variety of projects, ranging from small personal blogs to large-scale e-commerce platforms. My goal is to create websites that are not only visually appealing but also highly functional and user-friendly. I am constantly learning and staying updated with the latest trends and technologies in the industry to ensure that my skills remain sharp and relevant.</p> <br/>
+            <p>In addition to my technical skills, I pride myself on my problem-solving abilities and my attention to detail. I enjoy tackling challenging problems and finding innovative solutions that meet the needs of my clients and users. I believe that a great website is the result of careful planning, thoughtful design, and meticulous implementation.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge with the developer community through blogs and tutorials. I am always open to new opportunities and collaborations, so feel free to reach out if you would like to work together on a project or if you just want to connect and chat about web development.</p>
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <input type="text" id="project-filter" placeholder="Filter projects...">
+            <div class="wrapper">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>A brief description of the first project.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>A brief description of the second project.</p>
+                </div>
+                <!-- Add more projects as needed -->
+
+            </div>
+        </section>
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Feel free to get in touch with me via email: <a href="mailto:email@example.com">email@example.com</a></p>
+        </section>
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Ascent Tech Hub</p>
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
